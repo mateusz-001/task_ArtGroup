@@ -1,0 +1,22 @@
+{
+  "name": "artgroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusz-001/task_ArtGroup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusz-001/task_ArtGroup/issues"
+  },
+  "homepage": "https://github.com/mateusz-001/task_ArtGroup#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
