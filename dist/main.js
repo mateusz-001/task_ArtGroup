@@ -1,0 +1,1 @@
+(()=>{const t=document.querySelectorAll(".donate__button");t.forEach((e=>{e.addEventListener("click",(()=>{t.forEach((t=>{t.classList.remove("donate__button--active")})),e.classList.add("donate__button--active")}))}))})();
