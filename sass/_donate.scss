@@ -1,0 +1,137 @@
+.donate{
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media (min-width: 1200px) {
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+        }
+    }
+    &__title{
+        text-align: center;
+        font-family: $font-family-h;
+        font-size: 26px;
+        font-weight: bold;
+        color: $dark-gray;
+        margin-bottom: 50px;
+        @media (min-width: 768px) {
+            font-size: 36px
+        }
+    }
+    &__subtitle{
+        text-align: center;
+        font-family: $font-family-h;
+        font-size: 18px;
+        font-weight: normal;
+        color: $dark-gray;
+        margin-top: 50px;
+        @media (min-width: 768px) {
+            font-size: 27px
+    }
+    }
+    &__text{
+        font-family: $font-family-p;
+        font-size: 12px;
+        color: $light-gray;
+        @media (min-width: 768px) {
+            font-size: 16px
+        }
+        @media (min-width: 992px) {
+            padding: 20px;
+        }
+    }
+    &__text-centered{
+        text-align: center;
+    }
+    &__card-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__card{
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        @media (min-width: 992px) {
+            height: 350px;
+        }
+    }
+    &__card-number{
+        margin: 15px 0;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 30px -8px $black;
+        color: $red;
+        font-family: $font-family-p;
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: 768px) {
+            margin: 25px 0;
+            width: 64px;
+            height: 64px;
+            font-size: 28px;
+        }
+        @media (min-width: 768px) {
+            margin: 25px 0;
+            width: 84px;
+            height: 84px;
+            font-size: 36px;
+        }
+    }
+    &__form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px 0;
+        @media (min-width: 992px) {
+            padding: 50px 0;
+        }
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 277px;
+        height: 48px;
+        background-color: $white;
+        color: $red;
+        font-size: 20px;
+        text-align: center;
+        margin: 20px auto;
+        border: 4px solid $red;
+        border-radius: 5px;
+        transition: .4s;
+        @media (min-width: 992px) {
+            height: 88px;
+            font-size: 40px;
+        }
+        &--active{
+            border: none;
+            background-color: $green;
+            color: $white;
+        }
+    }
+    &__submit{
+        height: 35px;
+        width: 159px;
+        background-color: $green;
+        color: $white;
+        font-size: 13.5px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 5px;
+        @media (min-width: 992px) {
+            height: 44px;
+            font-size: 13.5px;
+        }
+    }
+}

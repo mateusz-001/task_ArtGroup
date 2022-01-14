@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mateusz-001/task_ArtGroup#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "swiper": "^7.4.1"
   }
 }
